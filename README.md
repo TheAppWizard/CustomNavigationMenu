@@ -4,13 +4,18 @@ This project can be used for implementation of Custom Navigation Menu with help 
 ## Concepts Used
 
 ### ScrollView
-It is used for 'scrolling' up / down song list
+It is used for `scrolling` up / down song list
 
 
 ```
  ScrollView(.vertical, showsIndicators: false) {
                 VStack(spacing: 15){
-                
+                .
+                .
+                .
+                .
+                .
+                .
                 }
               }
               
@@ -20,7 +25,7 @@ It is used for 'scrolling' up / down song list
 
 
 ### Slider
-It is used for showing song 'seek bar'
+It is used for showing song `seek bar`
 
 
 ```
@@ -30,7 +35,25 @@ HStack {
        .accentColor(Color.red)
        Text("3.45")
        }.foregroundColor(Color.red)
+       
 ```
+
+### Creating Views / Screens
+It is used for `creating views`
+
+Example of Views / Screens
+
+```
+struct Queue : View {
+    var body: some View{
+        VStack{
+            Text("Hello")
+        }
+    }
+}
+```
+
+
 
 
 
