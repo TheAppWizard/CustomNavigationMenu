@@ -10,6 +10,14 @@ It is used for 'scrolling' up / down song list
 It is used for showing song 'seek bar'
 
 
+```
+if (isAwesome){
+  return true
+}
+```
+
+
+
 
 
 
